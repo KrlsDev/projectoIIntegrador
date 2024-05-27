@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Agregar Nuevo Videojuego</title>
+</head>
+<body>
+    <h1>Agregar Nuevo Videojuego</h1>
+    <form th:action="@{/games}" th:object="${game}" method="post">
+        <label for="title">Título:</label>
+        <input type="text" id="title" th:field="*{title}" /><br/>
+        
+        <label for="genre">Género:</label>
+        <input type="text" id="genre" th:field="*{genre}" /><br/>
+        
+        <label for="platform">Plataforma:</label>
+        <input type="text" id="platform" th:field="*{platform}" /><br/>
+        
+        <label for="release_date">Fecha de Lanzamiento:</label>
+        <input type="text" id="release_date" th:field="*{release_date}" /><br/>
+        
+        <label for="rating">Calificación:</label>
+        <input type="number" id="rating" th:field="*{rating}" /><br/>
+        
+        <button type="submit">Agregar Videojuego</button>
+    </form>
+</body>
+</html>

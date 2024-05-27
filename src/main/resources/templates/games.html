@@ -8,10 +8,13 @@
 <body>
     <h1>Hola mundo</h1>
     <ul id="gamesList">
+        <a th:href="@{/games/new-game}">
+            <button>Agregar Nuevo Videojuego</button>
+        </a>
         <li th:each="game : ${games}">
             <div>
-                <!-- Hacer css-->
-                <p th:text="'Game from: ' + ${game.name} + ' Fecha de salida: ' + ${game.launchDate}"></p>
+                <!-- Ponlo en una tabla y más apañao-->
+                <p th:text="'Título ' + ${game.title} + ' Género ' + ${game.genre} + ' Plataforma ' + ${game.platform} + ' Fecha de lanzamiento ' + ${game.release_date} + ' Nota ' + ${game.rating}"></p>
             </div>
         </li>
     </ul>

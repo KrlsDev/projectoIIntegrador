@@ -8,6 +8,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
@@ -50,5 +51,17 @@ public class HomeController {
         List<Game> games = mongoRepo.findAll();
         model.addAttribute("games", games);
         return "games";
+    }
+
+    @GetMapping("/games/new-game")
+    public String nuevoVideojuegoForm(Model model) {
+        model.addAttribute("game", new Game());  
+        return "new-game";
+    }
+
+    @PostMapping("/games")
+    public String agregarVideojuego(@ModelAttribute Game game) {  
+        mongoRepo.save(game);  
+        return "redirect:/games";  
     }
 }
