@@ -1,0 +1,20 @@
+[{
+    "_id": "Espana",
+    "name": "Pong",
+    "launchDate": "12/12/12",
+    "developers": "Atari",
+    "authors": [
+      "Allan Alcorn"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6650487078bb53e2448f4bdc"
+    },
+    "name": "Tetris",
+    "launchDate": "11/11/11",
+    "developers": "Atari",
+    "authors": [
+      "Marcos Castellanos"
+    ]
+  }]

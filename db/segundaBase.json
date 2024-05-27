@@ -1,0 +1,110 @@
+[{
+    "_id": {
+      "$oid": "665228b48e73694ebbdf071b"
+    },
+    "id": 1,
+    "title": "Pong",
+    "genre": "Sports",
+    "platform": "Arcade",
+    "release_date": "1972-11-29",
+    "rating": 8
+  },
+  {
+    "_id": {
+      "$oid": "665228b48e73694ebbdf071c"
+    },
+    "id": 2,
+    "title": "Tetris",
+    "genre": "Puzzle",
+    "platform": "Various",
+    "release_date": "1984-06-06",
+    "rating": 9.5
+  },
+  {
+    "_id": {
+      "$oid": "665228b48e73694ebbdf071d"
+    },
+    "id": 3,
+    "title": "Super Mario Bros.",
+    "genre": "Platformer",
+    "platform": "NES",
+    "release_date": "1985-09-13",
+    "rating": 9.7
+  },
+  {
+    "_id": {
+      "$oid": "665228b48e73694ebbdf071e"
+    },
+    "id": 4,
+    "title": "The Legend of Zelda",
+    "genre": "Action-adventure",
+    "platform": "NES",
+    "release_date": "1986-02-21",
+    "rating": 9.4
+  },
+  {
+    "_id": {
+      "$oid": "665228b48e73694ebbdf071f"
+    },
+    "id": 5,
+    "title": "Pac-Man",
+    "genre": "Arcade",
+    "platform": "Arcade",
+    "release_date": "1980-05-22",
+    "rating": 9
+  },
+  {
+    "_id": {
+      "$oid": "665228b48e73694ebbdf0720"
+    },
+    "id": 6,
+    "title": "Donkey Kong",
+    "genre": "Platformer",
+    "platform": "Arcade",
+    "release_date": "1981-07-09",
+    "rating": 8.8
+  },
+  {
+    "_id": {
+      "$oid": "665228b48e73694ebbdf0721"
+    },
+    "id": 7,
+    "title": "Space Invaders",
+    "genre": "Shooter",
+    "platform": "Arcade",
+    "release_date": "1978-06-01",
+    "rating": 8.5
+  },
+  {
+    "_id": {
+      "$oid": "665228b48e73694ebbdf0722"
+    },
+    "id": 8,
+    "title": "Street Fighter II",
+    "genre": "Fighting",
+    "platform": "Arcade",
+    "release_date": "1991-03-06",
+    "rating": 9.3
+  },
+  {
+    "_id": {
+      "$oid": "665228b48e73694ebbdf0723"
+    },
+    "id": 9,
+    "title": "Sonic the Hedgehog",
+    "genre": "Platformer",
+    "platform": "Sega Genesis",
+    "release_date": "1991-06-23",
+    "rating": 9.1
+  },
+  {
+    "_id": {
+      "$oid": "665228b48e73694ebbdf0724"
+    },
+    "id": 10,
+    "title": "Final Fantasy VII",
+    "genre": "RPG",
+    "platform": "PlayStation",
+    "release_date": "1997-01-31",
+    "rating": 9.6
+  }]
